@@ -1,0 +1,17 @@
+# Copyright (c) 2020, Oracle Corporation and/or its affiliates.
+# Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+
+apiVersion: v1
+description: Oracle Database Server
+home: http://www.oracle.com
+name: oracle-db
+version: 1.0.0
+keywords:
+- oracle
+- database
+source:
+  - https://github.com/oracle/docker-images/tree/master/OracleDatabase/SingleInstance/charts/oracle-db
+  - https://github.com/backbase-cs/helm-charts/tree/master/charts/oracle-db
+maintainers:
+  - name: oracle
+  - name: backbase-cs

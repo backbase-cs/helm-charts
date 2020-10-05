@@ -3,7 +3,7 @@ entries:
   aws-ecr-credential:
   - apiVersion: v1
     appVersion: 1.5.0
-    created: "2020-09-11T12:58:09.894111+02:00"
+    created: "2020-10-05T10:22:31.426476+02:00"
     description: This Chart seemlessly integrates Kubernetes with AWS ECR
     digest: ac265ecb9903e053bcea9da24ae12e574812c297bbf25b9f75ad62257c15372f
     keywords:
@@ -24,7 +24,7 @@ entries:
     version: 1.5.0
   - apiVersion: v1
     appVersion: 1.4.2
-    created: "2020-09-11T12:58:09.893744+02:00"
+    created: "2020-10-05T10:22:31.425662+02:00"
     description: This Chart seemlessly integrates Kubernetes with AWS ECR
     digest: e4a2535c3a10276198a0cd7271525c567ff75fb6497665120cdb5ce2e2f8e0bb
     keywords:
@@ -42,7 +42,7 @@ entries:
     version: 1.4.2
   - apiVersion: v1
     appVersion: 1.4.1
-    created: "2020-09-11T12:58:09.893213+02:00"
+    created: "2020-10-05T10:22:31.425167+02:00"
     description: This Chart seemlessly integrate Kubernetes with AWS ECR
     digest: a05dd8b56ffec525001e06fb3f956c8095bbfbfb6ce776a06feae19207fdbca9
     keywords:
@@ -60,7 +60,7 @@ entries:
     version: 1.4.1
   - apiVersion: v1
     appVersion: 1.4.0
-    created: "2020-09-11T12:58:09.892323+02:00"
+    created: "2020-10-05T10:22:31.424383+02:00"
     description: A Helm chart for Kubernetes to allow docker pull from AWS registry
       through imagePullSecrets
     digest: 53b0943c9522ad8837ff3d443622875fd261d67230df706f56e364c73d9f2f48
@@ -72,7 +72,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-09-11T12:58:09.891523+02:00"
+    created: "2020-10-05T10:22:31.423732+02:00"
     description: A Helm chart for Kubernetes to allow docker pull from AWS registry
       through imagePullSecrets
     digest: 91c8f9bccdbb68e7526ee352c5a5652118976653fce0a009327475000c24db71
@@ -84,7 +84,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-09-11T12:58:09.891105+02:00"
+    created: "2020-10-05T10:22:31.423309+02:00"
     description: A Helm chart for Kubernetes to allow docker pull from AWS registry
       through imagePullSecrets
     digest: ed529e39ee145b477f23a7f706ae5587396742e66098b47cc8fc4a4de3e9c6d2
@@ -96,7 +96,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2020-09-11T12:58:09.890637+02:00"
+    created: "2020-10-05T10:22:31.422854+02:00"
     description: A Helm chart for Kubernetes to allow docker pull from AWS registry
       through imagePullSecrets
     digest: 1aa13e928ec6afd669c9415d1d72694328ea48daf688b7ec2a6a2994abad3e36
@@ -108,7 +108,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-09-11T12:58:09.890144+02:00"
+    created: "2020-10-05T10:22:31.422111+02:00"
     description: A Helm chart for Kubernetes to allow docker pull from AWS registry
       through imagePullSecrets
     digest: d349ac2ff44664789c0699149ed2690e7fde6e7e5e3c49f8151392e6e91a7bbe
@@ -121,7 +121,7 @@ entries:
   helm-redoc:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2020-09-11T12:58:09.895045+02:00"
+    created: "2020-10-05T10:22:31.427676+02:00"
     description: ReDoc is an open-source software framework backed by a large ecosystem
       of tools that helps developers design, build, document, and consume RESTful
       Web services.
@@ -139,4 +139,20 @@ entries:
     urls:
     - helm-redoc-0.1.1.tgz
     version: 0.1.1
-generated: "2020-09-11T12:58:09.889539+02:00"
+  oracle-db:
+  - apiVersion: v1
+    created: "2020-10-05T10:22:31.428437+02:00"
+    description: Oracle Database Server
+    digest: 54cd4a6dc891be3f0536ff7a7dff6880005af6445d5f90a64b32b203104051b4
+    home: http://www.oracle.com
+    keywords:
+    - oracle
+    - database
+    maintainers:
+    - name: oracle
+    - name: backbase-cs
+    name: oracle-db
+    urls:
+    - oracle-db-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-10-05T10:22:31.421226+02:00"
