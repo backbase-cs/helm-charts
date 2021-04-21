@@ -11,6 +11,8 @@ aws:
   accessKeyId: "" # base64
   secretAccessKey: "" # base64
 
+schedule: "* */8 * * *" # https://crontab.guru/#*_*/8_*_*_*
+
 jobImage: uesleilima/aws-kubectl
 jobImageTag: 2.0.23-1.18.4
 

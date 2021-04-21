@@ -3,7 +3,28 @@ entries:
   aws-ecr-credential:
   - apiVersion: v1
     appVersion: 1.5.0
-    created: "2021-03-25T13:54:17.512338+01:00"
+    created: "2021-04-21T14:08:07.083463+02:00"
+    description: This Chart seemlessly integrates Kubernetes with AWS ECR
+    digest: 7d19b47237c3140b84290196ddffbf1000b8057b3ce10a8722ccc9a55ce7afca
+    keywords:
+    - aws ecr
+    - imagePullSecrets
+    - kubernetes
+    maintainers:
+    - email: me@meenaalfons.com
+      name: Meena Alfons
+    - email: me@ueslei.dev
+      name: Ueslei Lima
+    name: aws-ecr-credential
+    sources:
+    - https://github.com/architectminds/helm-charts/tree/master/charts/aws-ecr-credential
+    - https://github.com/uesleilima/helm-charts/tree/master/charts/aws-ecr-credential
+    urls:
+    - aws-ecr-credential-1.5.1.tgz
+    version: 1.5.1
+  - apiVersion: v1
+    appVersion: 1.5.0
+    created: "2021-04-21T14:08:07.082574+02:00"
     description: This Chart seemlessly integrates Kubernetes with AWS ECR
     digest: ac265ecb9903e053bcea9da24ae12e574812c297bbf25b9f75ad62257c15372f
     keywords:
@@ -24,7 +45,7 @@ entries:
     version: 1.5.0
   - apiVersion: v1
     appVersion: 1.4.2
-    created: "2021-03-25T13:54:17.511406+01:00"
+    created: "2021-04-21T14:08:07.082151+02:00"
     description: This Chart seemlessly integrates Kubernetes with AWS ECR
     digest: e4a2535c3a10276198a0cd7271525c567ff75fb6497665120cdb5ce2e2f8e0bb
     keywords:
@@ -42,7 +63,7 @@ entries:
     version: 1.4.2
   - apiVersion: v1
     appVersion: 1.4.1
-    created: "2021-03-25T13:54:17.510941+01:00"
+    created: "2021-04-21T14:08:07.081852+02:00"
     description: This Chart seemlessly integrate Kubernetes with AWS ECR
     digest: a05dd8b56ffec525001e06fb3f956c8095bbfbfb6ce776a06feae19207fdbca9
     keywords:
@@ -60,7 +81,7 @@ entries:
     version: 1.4.1
   - apiVersion: v1
     appVersion: 1.4.0
-    created: "2021-03-25T13:54:17.509857+01:00"
+    created: "2021-04-21T14:08:07.081512+02:00"
     description: A Helm chart for Kubernetes to allow docker pull from AWS registry
       through imagePullSecrets
     digest: 53b0943c9522ad8837ff3d443622875fd261d67230df706f56e364c73d9f2f48
@@ -72,7 +93,7 @@ entries:
     version: 1.4.0
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2021-03-25T13:54:17.509228+01:00"
+    created: "2021-04-21T14:08:07.081216+02:00"
     description: A Helm chart for Kubernetes to allow docker pull from AWS registry
       through imagePullSecrets
     digest: 91c8f9bccdbb68e7526ee352c5a5652118976653fce0a009327475000c24db71
@@ -84,7 +105,7 @@ entries:
     version: 1.3.0
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2021-03-25T13:54:17.508826+01:00"
+    created: "2021-04-21T14:08:07.080956+02:00"
     description: A Helm chart for Kubernetes to allow docker pull from AWS registry
       through imagePullSecrets
     digest: ed529e39ee145b477f23a7f706ae5587396742e66098b47cc8fc4a4de3e9c6d2
@@ -96,7 +117,7 @@ entries:
     version: 1.2.0
   - apiVersion: v1
     appVersion: 1.1.0
-    created: "2021-03-25T13:54:17.50843+01:00"
+    created: "2021-04-21T14:08:07.080688+02:00"
     description: A Helm chart for Kubernetes to allow docker pull from AWS registry
       through imagePullSecrets
     digest: 1aa13e928ec6afd669c9415d1d72694328ea48daf688b7ec2a6a2994abad3e36
@@ -108,7 +129,7 @@ entries:
     version: 1.1.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-03-25T13:54:17.50801+01:00"
+    created: "2021-04-21T14:08:07.080394+02:00"
     description: A Helm chart for Kubernetes to allow docker pull from AWS registry
       through imagePullSecrets
     digest: d349ac2ff44664789c0699149ed2690e7fde6e7e5e3c49f8151392e6e91a7bbe
@@ -121,7 +142,7 @@ entries:
   helm-redoc:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2021-03-25T13:54:17.513429+01:00"
+    created: "2021-04-21T14:08:07.083819+02:00"
     description: ReDoc is an open-source software framework backed by a large ecosystem
       of tools that helps developers design, build, document, and consume RESTful
       Web services.
@@ -142,7 +163,7 @@ entries:
   jaeger:
   - apiVersion: v1
     appVersion: 1.22.0
-    created: "2021-03-25T13:54:17.51373+01:00"
+    created: "2021-04-21T14:08:07.084093+02:00"
     description: |-
       Jaeger, inspired by Dapper and OpenZipkin, is a distributed tracing system released as open source by Uber Technologies.
       It is used for monitoring and troubleshooting microservices-based distributed systems.
@@ -168,7 +189,7 @@ entries:
     version: 0.1.0
   oracle-db:
   - apiVersion: v1
-    created: "2021-03-25T13:54:17.514943+01:00"
+    created: "2021-04-21T14:08:07.084413+02:00"
     description: Oracle Database Server
     digest: 54cd4a6dc891be3f0536ff7a7dff6880005af6445d5f90a64b32b203104051b4
     home: http://www.oracle.com
@@ -185,7 +206,7 @@ entries:
   zipkin:
   - apiVersion: v1
     appVersion: 2.21.0
-    created: "2021-03-25T13:54:17.516128+01:00"
+    created: "2021-04-21T14:08:07.084874+02:00"
     description: |-
       Zipkin is a distributed tracing system. It helps gather timing
       data needed to troubleshoot latency problems in service architectures.
@@ -212,4 +233,4 @@ entries:
     urls:
     - zipkin-0.2.1.tgz
     version: 0.2.1
-generated: "2021-03-25T13:54:17.507435+01:00"
+generated: "2021-04-21T14:08:07.080002+02:00"
